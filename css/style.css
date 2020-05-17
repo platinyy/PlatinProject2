@@ -17,19 +17,19 @@ a{
 }
 li{
 	list-style-type:none;
+	
 }
 img{
 	max-width:100%;
 }
 a{
 	font-size:1.3em;
-	font-weight:bold;
 	color:black;
 }
 .main-nav a:hover,
 .end-nav a:hover{
 	border-bottom:3px solid black;
-	font-size:1.5em;
+	font-weight:bold;
 }
 .container,
 .second-container{
@@ -44,8 +44,12 @@ a{
 	width:450px;
 }
 
-
 /*Layout Styles*/
+.main-nav{
+	max-width:500px;
+	margin:0 auto;
+	padding-left:0;
+}
 
 .container1{
 	margin:0;
@@ -71,7 +75,6 @@ a{
 	{
 		display:block;
 	}
-	ul,
 	.name,
 	.tagline,
 	.container,
@@ -90,9 +93,10 @@ a{
 	}
 	.name{
 		margin-bottom:0px
+		
 	}
 	.main-nav{
-		margin-top:0px;
+		margin-bottom:25px;
 	}
 	.end-nav,
 	.skills,
@@ -114,7 +118,7 @@ a{
 	}
 	
 
-@media (min-width:769px){
+@media (min-width:768px){
 	.group::after{
 		content:"";
 		display:table;
@@ -182,13 +186,18 @@ a{
 	.nameee{
 		display:none;
 	}
+	.contact{
+		max-width:800px;
+		margin:0 auto;
+	}
 
 }
 @media (min-width:1024px){
 	
 	.container,
 	.second-container,
-	.footter
+	.footter,
+	.main-nav
 	{
 		max-width:1200px;
 		
