@@ -48,7 +48,7 @@ a{
 .main-nav{
 	max-width:500px;
 	margin:0 auto;
-	padding-left:0;
+	padding:0;
 }
 
 .container1{
@@ -62,12 +62,17 @@ a{
 	.para
 	{
 		text-align:center;
+		
 	}
 	.main-nav a{
-		background-color:white;
+		background-color:#F5F5DC;
 		margin-top:7px;
 		padding-top:5px;
 		padding-bottom:5px;
+	}
+	.para1{
+		font-style:italic;
+		color:#008080;
 	}
 	.main-nav a,
 	.tagline,
